@@ -73,13 +73,14 @@ body {
     gap: 2.3rem;
 }
 
-/* this will be user later on */
 .sticky-navbar {
-
+    position: fixed;
+    top: 2rem;
+    width: 90%;
 }
 
 .sticky-logo {
-
+    color: white !important;
 }
 
 #main-section {
@@ -102,12 +103,6 @@ body {
     color: white;
     gap: 3rem;
 }
-
-/*
-Looks weird, but don't worry.
-The overlay will make the white text
-pop
-*/
 
 #info {
     display: flex;
@@ -149,7 +144,6 @@ pop
     align-items: center;
 }
 
-/* Let's style the round button */
 .btn {
     border-radius: 25px;
     background-color: #F9B45F;
